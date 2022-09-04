@@ -7,7 +7,7 @@ def screensize():
 
 def locateOnScreen():
 
-    renewLocation = pyautogui.locateOnScreen('spell_holy_renew.png', confidence=0.75)
+    renewLocation = pyautogui.locateOnScreen('spell_holy_renew.png', confidence=0.75)# returns (left, top, width, height) of first place it is found
     print(renewLocation)
 
 '''
