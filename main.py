@@ -28,7 +28,7 @@ import time
 import pyautogui
 import keyboard
 import random
-
+import screenscan
 ###  MOVEMENT  ###
 
 """ WoW DEFAULTS
@@ -51,4 +51,6 @@ def Test():
 	time.sleep(1.5)
 	pyautogui.press('w')
 
-Test()
+#Test()
+
+screenscan.locateOnScreen()
